@@ -1,0 +1,43 @@
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+    <script src="check.js"></script>
+    <h1>Checkout</h1>
+    <form id="checkoutForm">
+        <h2>Order Summary</h2>
+        <table id="summaryTable">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Items will be added here dynamically -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Price:</td>
+                    <td id="summaryTotalPrice">Rs0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+     
+
+        <a href="card-payment.html" class="pay-button">Pay Now</a>
+    </form>
+   
+    
+</body>
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==title===-->
+<title>Fresh Fiesta</title>
+
+<!--==style sheet==-->
+<link rel="stylesheet" type="text/css"  href="style.css">
+
+<!--==fav icon-->
+<link rel="shortcut icon" href="./IMAGES/premium.jpg"type="image/x-icon">
+
+<!--using-font awsome-->
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+<!--==import font family===-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <script src="scripts.js"></script>
+     <!--==navigation======-->
+     <section id="mainNav">
+        <nav class="navigation">
+    
+            <!--logo-->
+            <a href="index.html" class="logo">
+                <span>Fresh</span> Fiesta
+            </a>
+    
+            
+            <!--menu-->
+            <ul class= "menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#category">category</a></li>
+                <li><a href="bundle-pack.html">Combos &Bundles</a></li>
+                
+                <li><a href="loyalty.html">Loyalty_Services</a></li>
+                <li><a href="aboutus.html">About</a></li>
+    
+            </ul>
+    
+    
+<!--right nav (cart)-->
+<div class="right-nav">
+  
+ 
+    
+
+  </div>
+        </nav>
+    
+        <!--nav end-------->
+   </section>
+
+
+    <!--==category=====-->
+    <section id="category">
+
+        <section id="category">
+
+            <!--heading-->
+            <div class="category-heading">
+                <h2>Categories</h2>
+            </div>
+    
+            <!--box-container-->
+            <div class="category-container">
+    
+                <!--fish------>
+                <a href="fishpage.html" class="category-container">
+                    <img src ="./png/fish.png" alt="Grocery fish">
+                    <span> Fish  </span>
+                 </a>
+    
+    
+                <!--chicken------>
+                <a href="chickenpage.html" class="category-container">
+                    <img src ="./png/turkey.png" alt="Grocery chicken">
+                    <span> Chicken  </span>
+                 </a>
+    
+    
+                <!---grocery------>
+                <a href="grocery.html" class="category-container">
+    
+    
+                    <img src ="./png/grocery-cart.png" alt="Grocery ">
+                    <span> Grocery  </span>
+                 </a>
+    
+    
+                <!--dairy------>
+                <a href="dairyproducts.html" class="category-container">
+    
+    
+                    <img src ="./png/milk.png" alt="dairy product">
+                    <span> Dairy products  </span>
+                 </a>
+    
+                <!--Vegetables------>
+                <a href="vegetables.html" class="category-container">
+    
+    
+                    <img src ="./png/vegetable.png" alt="Vegetables">
+                    <span> Vegetables </span>
+                 </a>
+    
+    
+                <!--Fruits------>
+                <a href="fruits.html" class="category-container">
+    
+    
+                    <img src ="./png/basket.png" alt="Fruits">
+                    <span> Fruits </span>
+                 </a>
+    
+                <!--cosmetics------>
+                <a href="cosmetics.html" class="category-container">
+    
+    
+                    <img src ="./png/skincare.png" alt="cosmetics">
+                    <span> Cosmetics </span>
+                </a>
+    
+                <!--cleaning agents------>
+                <a href="cleaningagents.html" class="category-container">
+    
+    
+                    <img src ="./png/cleaning.png" alt="cleaning agents">
+                    <span> Cleaning agents  </span>
+    
+                </a>
+
+                <!--Backing-Products-->
+                <a href="Backing Items.html" class="category-container">
+
+
+                    <img src ="./png/milk.png" alt="Backing-Products">
+                    <span> Baking-Products  </span>
+
+                </a>
+    
+            </div>
+                <br>
+    
+            <header>
+                <h1></h1>
+            </header>
+            <main>
+                <form id="orderForm">
+                    <div class="category" id="fruits">
+
+                        
+
+                        
+                        <section id="popular-product">
+
+
+                            <!--heading---->
+                            <div class="product-heading">
+                                <h3>Cleaning Agents</h3>
+                               
+                    
+                            </div>
+                                <!--popular products homepage-->
+                                <!--product-box-container-->
+                            <div class="product-container">
+                    
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/dettol cool.webp" alt="dettol">
+                                    <strong>Dettol Cool</strong>
+                                    <span class="quantity">1OOg</span>
+                                    <p>Price: Rs<span id="Product-price">100.00</span>/100g</p>
+                    
+                                    <label>Dettol Cool<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="100"></label>
+
+                    
+                                </div>
+                    
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/dettol hand wash.png" alt="dettol hand wash">
+                                    <strong>Dettol Hand Wash</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">1000.00</span>/1L</p>
+                                    <label>Dettol Hand Wash<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="1000"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/dettol lime.png" alt="dettol lime">
+                                    <strong>Dettol Lime</strong>
+                                    <span class="quantity">1OOg</span>
+                                    <p>Price: Rs<span id="Product-price">100.00</span>/100g</p>
+                                    <label>Dettol lime<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="100"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/dettol.jpg" alt="dettol">
+                                    <strong>Dettol Original</strong>
+                                    <span class="quantity">1OOG</span>
+                                    <p>Price: Rs<span id="Product-price">100.00</span>/100g</p>
+                                    <label>Dettol Original<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="100"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/hamam.jpg" alt="Hamama">
+                                    <strong>Hamam</strong>
+                                    <span class="quantity">1OOg</span>
+                                    <p>Price: Rs<span id="Product-price">150.00</span>/100g</p>
+                                    <label>Hamam<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="150"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/harpic bathroom.png" alt="Harpic Bath Room">
+                                    <strong>Harpic Bath Room Cleaner</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">1200.00</span>/1L</p>
+                                    <label>Harpic Bath Room Cleaner<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="1200"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/harpic spray.jpg" alt="Harpic Spray">
+                                    <strong>Harpic Spray Cleaner</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">900.00</span>/1L</p>
+                                    <label>Harpic Spray Cleaner<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="900"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/harpic toilet.jpg" alt="Harpic Toilet">
+                                    <strong>Harpic Toilet Cleaner</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">980.00</span>/1L</p>
+                                    <label>Harpic  Toilet Cleaner<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="980"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/lifebouy blue.png" alt="Lifebouy Blue">
+                                    <strong>Lifebouy Blue</strong>
+                                    <span class="quantity">1OOg</span>
+                                    <p>Price: Rs<span id="Product-price">140.00</span>/100g</p>
+                                    <label>Lifebouy Blue<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="140"></label>
+
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/lifebouy cool.jpg" alt="Lifebouy Cool">
+                                    <strong>Lifebouy Cool</strong>
+                                    <span class="quantity">1OOg</span>
+                                    <p>Price: Rs<span id="Product-price">140.00</span>/100g</p>
+                                    <label>Lifebouy Cool<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="140"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/lifebouy.png" alt="lifebouy">
+                                    <strong>Lifebouy</strong>
+                                    <span class="quantity">1OOg</span>
+                                    <p>Price: Rs<span id="Product-price">120.00</span>/100g</p>
+                                    <label>Lifebouy<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="120"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/scrub.png" alt="Scrub">
+                                    <strong>Scrub</strong>
+                                    <span class="quantity">1pcs</span>
+                                    <p>Price: Rs<span id="Product-price">200.00</span>/1pcs</p>
+                                    <label>Scrub<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="200"></label>
+
+                    
+                                </div>
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/sunlight liquid.png" alt="sunlight liquid">
+                                    <strong>Sunlight Liquid</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">740.00</span>/1L</p>
+                                    <label>Sunlight  Liquid<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="740"></label>
+
+                    
+                                </div>
+                    
+                                
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/dettol cool.webp" alt="Sunlight Lime">
+                                    <strong>Sunlight Lime</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">800.00</span>/1L</p>
+                                    <label>Sunlight Lime Liquid<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="800"></label>
+
+                    
+                                </div>
+                    
+                    
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/sunlight soap.png" alt="Sunlight Soap">
+                                    <strong>Sunlight Soap</strong>
+                                    <span class="quantity">100g</span>
+                                    <p>Price: Rs<span id="Product-price">120.00</span>/100g</p>
+                                    <label>Sunlight Soap<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="120"></label>
+
+                    
+                                </div>
+                    
+                    
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/sunlight.jpg" alt="Sunlight Detergent Powder">
+                                    <strong>Sunlight Detergent Powder</strong>
+                                    <span class="quantity">1kg</span>
+                                    <p>Price: Rs<span id="Product-price">540.00</span>/1kg</p>
+                                    <label>Sunlight Detergent Powder<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="540"></label>
+
+                    
+                                </div>
+                    
+                                <!--box----------->
+                                <div class="product-box">
+                    
+                                    <img src="cleaning agent images/surf liquid2.jpg" alt="Surfexcel Matic Liquid">
+                                    <strong>Surfexcel Matic Liquid</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">675.00</span>/1L</p>
+                                    <label>Surfexcel Matic Liquid<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="675"></label>
+
+                    
+                                </div>
+                    
+                    
+                                 <!--box----------->
+                                 <div class="product-box">
+                    
+                                    <img src="cleaning agent images/surfexcel.avif" alt="Surfexcel Powder">
+                                    <strong>Surfexcel Powder</strong>
+                                    <span class="quantity">1Kg</span>
+                                    <p>Price: Rs<span id="Product-price">550.00</span>/1kg</p>
+                                    <label>surfexcel Powder<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="550"></label>
+
+                    
+                                </div>
+                    
+                    
+                                 <!--box----------->
+                                 <div class="product-box">
+                    
+                                    <img src="cleaning agent images/vim liquid.jpg" alt="Vim Liquid">
+                                    <strong>Vim Liquid</strong>
+                                    <span class="quantity">1L</span>
+                                    <p>Price: Rs<span id="Product-price">450.00</span>/1L</p>
+                                    <label>Vim Liquid<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="450"></label>
+
+                    
+                                </div>
+                    
+                    
+                                 <!--box----------->
+                                 <div class="product-box">
+                    
+                                    <img src="cleaning agent images/vim soap.jpg" alt="Vim Soap">
+                                    <strong>Vim Soap</strong>
+                                    <span class="quantity">300g</span>
+                                    <p>Price: Rs<span id="Product-price">375.00</span>/300g</p>
+                                    <label>Vim Soap<input type="number" min="0" step="1" data-category="Cleaning Agents" data-price="375"></label>
+
+                    
+                                </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                            </div>
+                            
+                        </section>
+                    
+                
+                    <!--popular-product-end------->
+                   
+
+
+                       
+            <div class="buttons">
+                <button type="button" id="addToFavourites">Add to Favourites</button>
+                <button type="button" id="applyFavourites">Apply Favourites</button>
+                <button type="button" id="buyNow">Buy Now</button>
+            </div>
+
+                </form>
+        
+                <section class="order-summary">
+                    <h2>Current Order</h2>
+                    <table id="orderTable">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Category</th>
+                                <th>Amount</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Items will be added here dynamically -->
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Total Price:</td>
+                                <td id="totalPrice">Rs0.00</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            </main>
+            <footer>
+                <footer>
+                    <div class="footer-container">
+                
+                        <!--logo-container-->
+                        <div class="footer-logo">
+                            <a href="#"><span>Fresh</span>Fiesta</a>
+                            <!--social media-->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                
+                
+                
+                        </div>
+                        
+                
+                        <!--links-->
+                        <div class="footer-links">
+                            <strong>Categories</strong>
+                            <ul>
+                                <li><a href="fishpage.html">Fish</a></li>
+                                <li><a href="chickenpage.html">Chicken</a></li>
+                                <li><a href="grocerypage.html">Grocery</a></li>
+                                <li><a href="dairyproducts.html">Dairy products</a></li>
+                                <li><a href="vegetables.html">Vegetables</a></li>
+                                <li><a href="fruits.html">Fruits</a></li>
+                                <li><a href="cosmetics.html">cosmetics</a></li>
+                                <li><a href="cleaningagents.html">cleaning agents</a></li>
+                                <li><a href="Backing Items.html">Baking-Products</a></li>
+                                <li><a href="index.html">HOME</a></li>
+                               
+                
+                            </ul>
+                        </div>
+                
+                
+                          <!--links-->
+                          <div class="footer-links">
+                            <strong>Credential partners</strong>
+                            <ul>
+                                <li><a href="#">Ambewella Milk Farm</a></li>
+                                <li><a href="#">Crisco</a></li>
+                                <li><a href="#">CBL</a></li>
+                                <li><a href="#">Elephant House</a></li>
+                                 <li><a href="#">Magic</a></li>
+                                <li><a href="#">Menic farm</a></li>
+                                <li><a href="#">Nature secret</a></li>
+                                <li><a href="#">Unileaver</a></li>
+                            </ul>
+                        </div>
+                
+                
+                          <!--links-->
+                          <div class="footer-links">
+                            <strong>Contact Us</strong>
+                            <ul>
+                                <li><a href="#">Mobile: 0769286572</a></li>
+                                <li><a href="#">E-mail: freshfiesta@gmail.com</a></li>
+                
+                            </ul>
+                        </div>
+            </footer>
+        
+            <script src="script.js"></script>

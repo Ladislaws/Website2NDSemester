@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==title===-->
+<title>Fresh Fiesta</title>
+
+<!--==style sheet==-->
+<link rel="stylesheet" type="text/css"  href="style.css">
+
+<!--==fav icon-->
+<link rel="shortcut icon" href="./IMAGES/premium.jpg"type="image/x-icon">
+
+<!--using-font awsome-->
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+<!--==import font family===-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <script src="scripts.js"></script>
+     <!--==navigation======-->
+     <section id="mainNav">
+        <nav class="navigation">
+    
+            <!--logo-->
+            <a href="index.html" class="logo">
+                <span>Fresh</span> Fiesta
+            </a>
+    
+            
+            <!--menu-->
+            <ul class= "menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#category">category</a></li>
+                <li><a href="bundle-pack.html">Combos &Bundles</a></li>
+                
+                <li><a href="loyalty.html">Loyalty_Services</a></li>
+                <li><a href="aboutus.html">About</a></li>
+    
+            </ul>
+    
+    
+<!--right nav (cart)-->
+<div class="right-nav">
+  
+ 
+    
+
+  </div>
+        </nav>
+    
+        <!--nav end-------->
+   </section>
+
+
+    <!--==category=====-->
+    <section id="category">
+
+        <section id="category">
+
+            <!--heading-->
+            <div class="category-heading">
+                <h2>Categories</h2>
+            </div>
+    
+            <!--box-container-->
+            <div class="category-container">
+    
+                <!--fish------>
+                <a href="fishpage.html" class="category-container">
+                    <img src ="./png/fish.png" alt="Grocery fish">
+                    <span> Fish  </span>
+                 </a>
+    
+    
+                <!--chicken------>
+                <a href="chickenpage.html" class="category-container">
+                    <img src ="./png/turkey.png" alt="Grocery chicken">
+                    <span> Chicken  </span>
+                 </a>
+    
+    
+                <!---grocery------>
+                <a href="grocery.html" class="category-container">
+    
+    
+                    <img src ="./png/grocery-cart.png" alt="Grocery ">
+                    <span> Grocery  </span>
+                 </a>
+    
+    
+                <!--dairy------>
+                <a href="dairyproducts.html" class="category-container">
+    
+    
+                    <img src ="./png/milk.png" alt="dairy product">
+                    <span> Dairy products  </span>
+                 </a>
+    
+                <!--Vegetables------>
+                <a href="vegetables.html" class="category-container">
+    
+    
+                    <img src ="./png/vegetable.png" alt="Vegetables">
+                    <span> Vegetables </span>
+                 </a>
+    
+    
+                <!--Fruits------>
+                <a href="fruits.html" class="category-container">
+    
+    
+                    <img src ="./png/basket.png" alt="Fruits">
+                    <span> Fruits </span>
+                 </a>
+    
+                <!--cosmetics------>
+                <a href="cosmetics.html" class="category-container">
+    
+    
+                    <img src ="./png/skincare.png" alt="cosmetics">
+                    <span> Cosmetics </span>
+                </a>
+    
+                <!--cleaning agents------>
+                <a href="cleaningagents.html" class="category-container">
+    
+    
+                    <img src ="./png/cleaning.png" alt="cleaning agents">
+                    <span> Cleaning agents  </span>
+    
+                </a>
+
+                <!--Backing-Products-->
+                <a href="Backing Items.html" class="category-container">
+
+
+                    <img src ="./png/milk.png" alt="Backing-Products">
+                    <span> Baking-Products  </span>
+
+                </a>
+    
+            </div>
+                <br>
+                <br>
+    
+            <header>
+                <h1>Baking-Products</h1>
+            </header>
+            <main>
+                <form id="orderForm">
+                    <div class="category" id="fruits">
+
+                        
+
+                        
+                        <section id="popular-product">
+
+
+                            <!--heading---->
+                            <div class="product-heading">
+                                <h3></h3>
+
+                                <div class="product-container">
+
+                                    <!--box----------->
+                                    <div class="product-box">
+                        
+                                        <img src="backing images/vanilla.jpeg" alt="Vanilla Essence">
+                                        <strong>Vanilla Essence</strong>
+                                        <span class="quantity">1L</span>
+                                        <p>Price: Rs<span id="Product-price">2500.00</span>/1L</p>
+                                        <label>Vanilla Essence<input type="number" min="0" step="1" data-category="Baking-Items" data-price="2500"></label>
+
+                        
+                                    </div>
+                        
+                        
+                                    <!--box----------->
+                                    <div class="product-box">
+                        
+                                        <img src="backing images/choclate-chips.jpeg" alt="Choclate Chips">
+                                        <strong>Choclate Chips</strong>
+                                        <span class="quantity">1kg</span>
+                                        <p>Price: Rs<span id="Product-price">5500.00</span>/1kg</p>
+                                        <label>Choclate Chips<input type="number" min="0" step="1" data-category="Baking-Items" data-price="5500"></label>
+
+                        
+                                    </div>
+                                        
+                                    <!--box----------->
+                                    <div class="product-box">
+                        
+                                        <img src="backing images/whipped.jpeg" alt="Whipped Cream">
+                                        <strong>Whipped Cream</strong>
+                                        <span class="quantity">1kg</span>
+                                        <p>Price: Rs<span id="Product-price">1200.00</span>/1kg</p>
+                                        <label>Whipped Cream<input type="number" min="0" step="1" data-category="Baking-Items" data-price="1200"></label>
+
+                        
+                                    </div>
+                        
+                                    <!--box----------->
+                                    <div class="product-box">
+                        
+                                        <img src="backing images/dry.jpeg" alt="Dry fruits">
+                                        <strong>Dry fruits </strong>
+                                        <span class="quantity">1kg</span>
+                                        <p>Price: Rs<span id="Product-price">4500.00</span>/1kg</p>
+                                        <label>Dry Fruits<input type="number" min="0" step="0.1" data-category="Baking-Items" data-price="4500"></label>
+
+                        
+                                    </div>
+                                
+                                    <!--box----------->
+                                    <div class="product-box">
+                        
+                                        <img src="backing images/cardamon.jpeg" alt="Cardamon Powder">
+                                        <strong>Cardamon Powder</strong>
+                                        <span class="quantity">1kg</span>
+                                        <p>Price: Rs<span id="Product-price">5000.00</span>/1kg</p>
+                                        <label>Cardamon Powder<input type="number" min="0" step="0.1" data-category="Baking-Items" data-price="5000"></label>
+
+                                    </div>
+                        
+                                    
+                                    <!--box----------->
+                                    <div class="product-box">
+                        
+                                        <img src="backing images/cinnamon.jpeg" alt="Cinnamon powder">
+                                        <strong>Cinnamon powder</strong>
+                                        <span class="quantity">1kg</span>
+                                        <p>Price: Rs<span id="Product-price">4500.00</span>/1kg</p>
+                                        <label>Cinnamon Powder<input type="number" min="0" step="0.1" data-category="Baking-Items" data-price="4500"></label>
+
+                        
+                                    </div>
+                                        
+                        
+                        
+                        
+                                </div>
+                                
+                            </section>
+                        
+                        
+                               
+                    
+                            
+                    
+                
+                    <!--popular-product-end------->
+                   
+
+
+                       
+            <div class="buttons">
+                <button type="button" id="addToFavourites">Add to Favourites</button>
+                <button type="button" id="applyFavourites">Apply Favourites</button>
+                <button type="button" id="buyNow">Buy Now</button>
+            </div>
+
+                </form>
+        
+                <section class="order-summary">
+                    <h2>Current Order</h2>
+                    <table id="orderTable">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Category</th>
+                                <th>Amount</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Items will be added here dynamically -->
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Total Price:</td>
+                                <td id="totalPrice">Rs0.00</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            </main>
+            <footer>
+                <footer>
+                    <div class="footer-container">
+                
+                        <!--logo-container-->
+                        <div class="footer-logo">
+                            <a href="#"><span>Fresh</span>Fiesta</a>
+                            <!--social media-->
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                
+                
+                
+                        </div>
+                        
+                
+                        <!--links-->
+                        <div class="footer-links">
+                            <strong>Categories</strong>
+                            <ul>
+                                <li><a href="fishpage.html">Fish</a></li>
+                                <li><a href="chickenpage.html">Chicken</a></li>
+                                <li><a href="grocerypage.html">Grocery</a></li>
+                                <li><a href="dairyproducts.html">Dairy products</a></li>
+                                <li><a href="vegetables.html">Vegetables</a></li>
+                                <li><a href="fruits.html">Fruits</a></li>
+                                <li><a href="cosmetics.html">cosmetics</a></li>
+                                <li><a href="cleaningagents.html">cleaning agents</a></li>
+                                <li><a href="Backing Items.html">Baking-Products</a></li>
+                                <li><a href="index.html">HOME</a></li>
+                               
+                
+                            </ul>
+                        </div>
+                
+                
+                          <!--links-->
+                          <div class="footer-links">
+                            <strong>Credential partners</strong>
+                            <ul>
+                                <li><a href="#">Ambewella Milk Farm</a></li>
+                                <li><a href="#">Crisco</a></li>
+                                <li><a href="#">CBL</a></li>
+                                <li><a href="#">Elephant House</a></li>
+                                 <li><a href="#">Magic</a></li>
+                                <li><a href="#">Menic farm</a></li>
+                                <li><a href="#">Nature secret</a></li>
+                                <li><a href="#">Unileaver</a></li>
+                            </ul>
+                        </div>
+                
+                
+                          <!--links-->
+                          <div class="footer-links">
+                            <strong>Contact Us</strong>
+                            <ul>
+                                <li><a href="#">Mobile: 0769286572</a></li>
+                                <li><a href="#">E-mail: freshfiesta@gmail.com</a></li>
+                
+                            </ul>
+                        </div>
+            </footer>
+        
+            <script src="script.js"></script>
